@@ -27,5 +27,4 @@ Do obowiązków komisji wyborczej należy
 -rejestrowanie nowych wyborów: nazwa, liczba posad, termin zgłaszania kandydatów, termin rozpoczęcia i zakończenia głosowania;\
 -publikowanie wyników wyborów.
 
-Schemat:
-![Schemat bazy danych](schema.svg)
+Schemat: ![Schemat bazy danych](schema.svg)
