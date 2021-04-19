@@ -1,5 +1,5 @@
 # data-bases-course
-Assignments and projects for data bases course
+<b>Assignments and projects for data bases course<b>
 
 Nazwa projektu\
 Wybory do samorządu studenckiego
@@ -28,4 +28,4 @@ Do obowiązków komisji wyborczej należy
 -publikowanie wyników wyborów.
 
 Schemat:
-![Wybory](schema.svg)
+![Schemat bazy danych](schema.svg)
