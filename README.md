@@ -1,5 +1,5 @@
 # data-bases-course
-<b>Assignments and projects for data bases course<b>
+<b>Assignments and projects for data bases course <b>
 
 Nazwa projektu\
 Wybory do samorządu studenckiego
