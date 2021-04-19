@@ -1,0 +1,6 @@
+CREATE TABLE Kandydaci(
+	id NUMERIC(6) PRIMARY KEY,
+	name VARCHAR(12) NOT NULL,
+	surname VARCHAR(19) NOT NULL,
+	FOREIGN KEY (id) REFERENCES Students
+);
