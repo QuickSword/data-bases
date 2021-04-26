@@ -24,19 +24,18 @@ CREATE TABLE wyborcy(
 );
 
 CREATE TABLE zgloszenia_kandydatow(
-	id_zgloszenia NUMERIC(6) PRIMARY KEY,
+	id_zgloszenia NUMERIC(12) NOT NULL UNIQUE,
 	id_wyborow NUMERIC(9) NOT NULL REFERENCES wybory(id),
 	nr_indeksu_wyborcy NUMERIC(6) NOT NULL REFERENCES wyborcy,
-	kandydat NUMERIC(6) NOT NULL REFERENCES wyborcy
+	kandydat NUMERIC(6) NOT NULL PRIMARY KEY REFERENCES wyborcy
 );
 
 CREATE TABLE kandydaci(
-	nr_indeksu_kandydata NUMERIC(6) PRIMARY KEY REFERENCES wyborcy(numer_indeksu),
+	nr_indeksu_kandydata NUMERIC(6) PRIMARY KEY REFERENCES zgloszenia_kandydatow(kandydat),
 	id_wyborow NUMERIC(6) NOT NULL REFERENCES wybory(id)
 );
 
 CREATE TABLE glosy(
-	id_wyborow NUMERIC(9) NOT NULL REFERENCES wybory(id),
 	nr_indeksu_wyborcy NUMERIC(6) PRIMARY KEY REFERENCES wyborcy(numer_indeksu),
 	kandydat NUMERIC(6) REFERENCES kandydaci(nr_indeksu_kandydata)
 );
