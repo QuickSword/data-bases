@@ -26,3 +26,4 @@ W zasadzie członkiem komisji nie powinien być kandydat, proponuję jednak nie 
 -rejestrowanie nowych wyborów: nazwa, liczba posad, termin zgłaszania kandydatów, termin rozpoczęcia i zakończenia głosowania;\
 -publikowanie wyników wyborów.
 
+![alt Diagram ERD](diagram.png)
