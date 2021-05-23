@@ -24,6 +24,7 @@ W zasadzie członkiem komisji nie powinien być kandydat, proponuję jednak nie 
 
 -rejestrowanie nowych wyborców (w praktyce pewnie pobrano by listę z USOSa);\
 -rejestrowanie nowych wyborów: nazwa, liczba posad, termin zgłaszania kandydatów, termin rozpoczęcia i zakończenia głosowania;\
--publikowanie wyników wyborów.
+-publikowanie wyników wyborów.  
 
+  Diagram ERD:
 ![alt Diagram ERD](diagram.png)
