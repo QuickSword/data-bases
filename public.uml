@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>6fe22b93-3c5f-497c-8d6f-817019511717.SCHEMA:postgres.public</OriginalElement>
+  <nodes>
+    <node x="105.51515151515153" y="392.0">6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.glosy</node>
+    <node x="58.33333333333334" y="22.0">6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.wyborcy</node>
+    <node x="257.3333333333333" y="0.0">6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.wybory</node>
+    <node x="113.50000000000001" y="217.0">6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.kandydaci</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.glosy" target="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.wybory" relationship="REFERENCES">
+      <point x="68.66666666666669" y="-50.5" />
+      <point x="277.18181818181824" y="366.0" />
+      <point x="359.3333333333333" y="366.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.kandydaci" target="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.wyborcy" relationship="REFERENCES">
+      <point x="-68.66666666666669" y="-61.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.kandydaci" target="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.wybory" relationship="REFERENCES">
+      <point x="68.66666666666669" y="-61.5" />
+      <point x="285.1666666666667" y="192.0" />
+      <point x="359.3333333333333" y="192.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.glosy" target="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.kandydaci" relationship="REFERENCES">
+      <point x="0.0" y="-50.5" />
+      <point x="208.51515151515153" y="366.0" />
+      <point x="216.5" y="366.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.glosy" target="6fe22b93-3c5f-497c-8d6f-817019511717.TABLE:postgres.public.wyborcy" relationship="REFERENCES">
+      <point x="-68.66666666666669" y="-50.5" />
+      <point x="139.84848484848484" y="366.0" />
+      <point x="103.0" y="366.0" />
+      <point x="103.0" y="192.0" />
+      <point x="147.83333333333334" y="192.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="231.0" y="246.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
