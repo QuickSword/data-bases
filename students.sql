@@ -30,9 +30,9 @@ CREATE TABLE kandydaci
 
 CREATE TABLE glosy
 (
-    id                 SERIAL     NOT NULL PRIMARY KEY,
+    id                 SERIAL     PRIMARY KEY,
     id_wyborow         NUMERIC(9) NOT NULL REFERENCES wybory (id),
-    nr_indeksu_wyborcy NUMERIC(6) REFERENCES NOT NULL wyborcy (numer_indeksu),
+    nr_indeksu_wyborcy NUMERIC(6) NOT NULL REFERENCES wyborcy (numer_indeksu),
     kandydat           NUMERIC(6) REFERENCES kandydaci (kandydat)
 );
 
