@@ -27,4 +27,6 @@ W zasadzie członkiem komisji nie powinien być kandydat, proponuję jednak nie 
 -publikowanie wyników wyborów.  
 
   Diagram ERD:
+  
+  
 ![alt Diagram ERD](diagram.png)
