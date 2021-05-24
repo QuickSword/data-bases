@@ -29,4 +29,4 @@ W zasadzie członkiem komisji nie powinien być kandydat, proponuję jednak nie 
   Diagram ERD:
   
   
-![alt Diagram ERD](diagram.png)
+![alt Diagram ERD](schema.png)
