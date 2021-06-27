@@ -1,5 +1,5 @@
 # data-bases-course
-<b>Assignments and projects for data bases course<b>
+<b>Projekt zaliczeniowy na bazy danych 2020/2021 UW<b>
 
 >Wybory do samorządu studenckiego
 
